@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>SOS</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="" width="124" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#introduction">Glicemia capilar (Diabetes)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Pressão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Dieta</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header position-relative mt-6 overflow-hidden">
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star-2 position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mt-6">
+              <h1 class="xl-text">
+                O seu site <span class="text-primary">para facilitar</span> o seu controle de doenças
+              </h1>
+              <p class="lead mb-4">
+                Nosso site é uma iniciativa gratuita que visa ajudar a sistematizar 
+                o controle de doenças, role para baixo ou clique em um dos cards acima para 
+                ser direcionado. Crie sua conta para mais opções!
+              </p>
+              <a href="#contact" class="btn btn-primary btn-lg m-2">
+                Criar conta
+              </a>
+              <a href="#contact" class="btn btn-outline-secondary btn-lg m-2">
+                Já sou cadastrado
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img src="images/header.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Intodução Diabetes -->
+    <section id="introduction" class="intro bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <h2>
+              Níveis de <span class="text-secondary">Diabetes</span> baixa, normal e alta
+            </h2>
+            <p class="fs-5">
+              A glicemia é o termo que se refere à quantidade de glicose, mais conhecido como açúcar,
+              no sangue que chega através da ingestão dos alimentos que contém carboidratos, como bolo, 
+              massas e pães, por exemplo. A concentração de glicose no sangue é controlada por dois hormônios,
+              a insulina que é responsável pela diminuição do açúcar na corrente sanguínea e o glucagon que tem
+              função de aumentar os níveis de glicose. Existem várias formas de medir os níveis de glicose a 
+              forma em evidência aqui é a glicemia capilar. Os valores de referência de glicose no sangue deve estar
+              idealmente entre 70 a 100 mg/dL em jejum e quando está abaixo deste valor indica a hipoglicemia, que causa
+              sintomas como sonolência, tontura e até desmaios. Já a hiperglicemia, é quando a glicemia está acima
+              de 100 mg/dL em jejum e pode indicar diabetes tipo 1 ou tipo 2, que se não for controlada pode provocar complicações,
+              como problemas de visão e pé diabético.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diabetes -->
+    <section id="details" class="details position-relative my-6 overflow-hidden">
+      <div class="row my-6">
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="69"></h2>
+          <p>Hipoglicemia (Muito baixo)</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="70"></h2>
+          <p>Um pouco baixo mas normal</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="100"></h2>
+          <p>Um pouco alto mas normal</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="101"></h2>
+          <p>Hiperglicemia (Muito alta)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pressão -->
+    <section id="services" class="services bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="text-container text-center text-lg-start">
+              <h2>
+                <span class="text-secondary">Pressão</span> Arterial
+              </h2>
+              <p>
+                A pressão arterial é a força que o sangue faz sobre as artérias para circular
+                pelo corpo. Ela é dividida em dois tipos: sistólica e diastólica. A sistólica 
+                é a pressão quando o coração está batendo, e a diastólica é a pressão quando o 
+                coração está em repouso. A hipertensão é uma doença crônica que ocorre quando 
+                a pressão arterial é persistentemente elevada. Ela pode ser silenciosa, por isso 
+                é importante medir a pressão arterial regularmente. Alguns sinais de alerta para 
+                hipertensão são: Tontura, Falta de ar, Palpitações, Dor de cabeça frequente, Alteração na visão.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img src="images/pressao.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pressão 2 -->
+    <section class="details-2 position-relative my-6 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/pressao_gravidez.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-6">
+            <img src="images/pressao_infantil.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dieta -->
+    <section id="projects" class="projects py-6">
+      <div class="container">
+        <h2 class="text-center pb-4">
+          Algumas recomendações que devem ser visadas na dieta<span class="text-secondary"> para Diabéticos</span>
+        </h2>
+        <!-- Projects Row 1 -->
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="images/negativo.png" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">O que evitar</h5>
+                <p class="card-text">
+                  Limitar o consumo de açúcares simples, como doces, refrigerantes e sucos. Também evitar bebidas alcoólicas, como cerveja, vinho e espumante.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="images/positivo.png" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Alimentos</h5>
+                <p class="card-text">
+                  Frutas, legumes, verduras, grãos integrais, peixe, frango, azeite de oliva e óleos de canola, girassol ou amendoim.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="images/numeros.png" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Números de refeições</h5>
+                <p class="card-text">
+                  Fazer de 5 a 6 refeições por dia, com intervalo de cerca de 4 horas entre elas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="text-center pb-4">
+          Algumas recomendações que devem ser visadas na dieta<span class="text-secondary"> para Hipertensão</span>
+        </h2>
+        <!-- Projects Row 2 -->
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="images/negativo.png" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">O que evitar</h5>
+                <p class="card-text">
+                  Carnes processadas, como linguiça, salsicha, bacon, salame, macarrão instantâneo, alimentos ultraprocessados em geral álcool
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="images/positivo.png" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Alimentos</h5>
+                <p class="card-text">
+                  Banana, abacate, uva-passa, melancia, laranja, abacaxi, beterraba, couve, alho,
+                  feijão, aveia, farinha de trigo integral, arroz integral, quinoa, leite desnatado, peixes, frango e cortes magros de carnes vermelhas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="images/numeros.png" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Número de refeições</h5>
+                <p class="card-text">
+                  Fazer de 5 refeições por dia, com intervalo de cerca de 4 horas entre elas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cadastre-se -->
+    <section id="contact" class="contact my-6 position-relative">
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6 d-none d-md-block">
+            <div class="image-container">
+              <img src="images/contact.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h2>Cadastre-se</h2>
+
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nome"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Telefone"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Senha"
+                  />
+                </div>
+                <div class="d-grid gap-2">
+                  <input
+                    type="submit"
+                    value="Enviar"
+                    class="btn btn-primary btn-block"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Fim da Página-->
+    <footer class="footer bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <p>&copy;2024 - 2024 - Guilherme e Amon</p>
+          </div>
+          <div class="col-md-4 my-3">
+            <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                Important: <a href="#">Terms & Conditions</a>,
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                Useful: <a href="#">Icon Library</a>,
+                <a href="#">Illustrations</a>
+              </li>
+              <li>
+                Menu: <a href="#">Home</a>, <a href="#details">Diabetes</a>,
+                <a href="#services">Pressao</a>, <a href="#contact">Register</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="mb-4">
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-facebook fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-twitter fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-instagram fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-pinterest fa-3x text-dark mx-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="to-top" class="to-top-btn">
+      <img src="images/up-arrow.png" alt="" />
+    </button>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
